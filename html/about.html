@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>About Us</title>
+    <style>
+        /* .container{
+            width: 100px;
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+        .container img{
+            width: 3000px;
+            height: 100vh;
+            object-fit: cover;
+        } */
+    </style>
+</head>
+<body>
+   <nav class="navbar">
+        <div class="nav-left">
+            <img src="../assets/bmw-logo.png" alt="">
+            <h1 style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Cars</h1>
+        </div>
+        <div class="nav-right">
+            <button onclick="location.href='./index.html'">Home</button>
+            <button onclick="location.href='./comm.html'">Car Gallery</button>
+            <!-- <button onclick="location.href='./window.html'">Windows</button> -->
+            <button onclick="location.href='./about.html'">About us</button>
+            <button id="black-button"  onclick="location.href='./contact.html'">Contact us</button>
+        </div>
+             </nav>
+    <!-- <div class="container">
+
+        <!-- <div class="main-img">
+        <img src="../assets/bmw-m7.jpg" alt="">
+    </div> -->
+    </div> -->
+        <video autoplay loop muted playsinline id="bg-video">
+  <source src="https://www.bmw.com/content/dam/bmw/marketBMWCOM/bmw_com/categories/freude/light/light-01-stage-hd.mp4" type="video/mp4">
+ 
+</video>
+
+<style>
+  #bg-video {
+    position: fixed;
+    top: 0;
+    left: 0;
+    min-width: 100vw;
+    min-height: 100vh;
+    object-fit: cover;
+    z-index: -1; /* So content stays on top */
+  }
+</style>
+</body>
+</html>
